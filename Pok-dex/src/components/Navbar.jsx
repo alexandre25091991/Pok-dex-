@@ -9,6 +9,11 @@ const nextHandleClick = () => {
     setPokemonIndex(pokemonIndex + 1);
     console.log(pokemonIndex);
 }
+
+    if (pokemonList[pokemonIndex].name ==="pikachu" ){
+        alert("pika pikachu !!!") 
+       }
+    
 //render
 return (
     <>
