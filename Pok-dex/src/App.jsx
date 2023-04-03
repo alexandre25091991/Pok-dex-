@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 function App() {
     //state
   const [pokemonIndex, setPokemonIndex] = useState(0);
+
     //comportements
     useEffect(
       ()=>{
